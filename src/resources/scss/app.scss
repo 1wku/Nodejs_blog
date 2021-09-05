@@ -1,24 +1,78 @@
 @import 'variables';
-
 h1 {
-  color: $red-color;
+    color: $red-color;
+}
+
+html,
+body,
+a,
+button {
+    font-family: 'Comfortaa', cursive;
 }
 
 .search-form {
-  margin: 0 auto;
-  margin-top: 100px;
-  max-width: 500px;
-  border-radius: 20px;
-  background-color: #343a40;
-  padding: 40px 40px 20px 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: #343a40;
+    padding: 40px 40px 20px 40px;
 }
 
 .form-group {
-  & > label {
-    color: #fff;
-  }
+    &>label {
+        color: #fff;
+    }
 }
 
 .card-item {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.pastel-cl-dark {
+    background-color: #657889;
+}
+
+body {
+    background-color: #c7d0d7;
+}
+
+.course {
+    border: 0px solid transparent;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    &__img {
+        border-radius: 10px 10px 0 0;
+    }
+    &__body {
+        &-des {
+            height: 75px;
+            // padding: 0 5px;
+        }
+        &-btn {
+            padding: 8px 20px;
+            background-color: #edafb8;
+            border: 0px solid transparent;
+            color: #3a405a;
+            &:hover {
+                color: #3a405a;
+                background-color: #dedbd2;
+            }
+        }
+    }
+}
+
+.user-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    margin-right: 5px;
 }

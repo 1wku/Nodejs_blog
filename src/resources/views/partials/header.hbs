@@ -1,17 +1,36 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark pastel-cl-dark">
+  <div class="container">
+    <a class="navbar-brand " href="/">
+      <img
+        src="https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/240828794_3012680642388823_6320276411947127716_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=SF25kACmgo4AX_GP972&_nc_ht=scontent.fsgn3-1.fna&oh=6861a65284409b23c511554cf50ad60f&oe=6156FBC2"
+        alt="" width="30" height="24" class="d-inline-block align-text-center header-logo">
+      TIEVY Education
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img
+              src="https://scontent.fvca1-1.fna.fbcdn.net/v/t1.6435-1/c0.17.100.100a/p100x100/212817864_1139639236530174_6971350424352510998_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=7206a8&_nc_ohc=MA2yLVX0ZxsAX_c4fgt&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fvca1-1.fna&oh=35e2d100fb1711e9dcbb5a09a070be86&oe=61581AC6"
+              alt="" class="user-avatar">
+            Phương Vy
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/courses/create">Create a Course</a>
+            {{!-- <a class="nav-link" href=""></a> --}}
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/me/stored/courses">My Courses</a>
+            <a class="dropdown-item" href="/me/blogs">My Blogs</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Log out</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
